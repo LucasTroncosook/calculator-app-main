@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+  <main>
+    <header>
+      <h3>calc</h3>
+
+      <nav>
+        <span>theme</span>
+        <div>
+          <section>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </section>
+          <a href="#" data-id="1" class="btn-toggle"></a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="calculadora" data-id="1">
+      <div class="resultado-calculadora">
+        <h2 id="resultado">0</h2>
+      </div>
+
+      <section class="container-calculadora">
+        <div>
+          <a href="#">7</a>
+          <a href="#">8</a>
+          <a href="#">9</a>
+          <a href="#" id="del">del</a>
+        </div>
+        <div>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">+</a>
+        </div>
+        <div>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">-</a>
+        </div>
+        <div>
+          <a href="#">.</a>
+          <a href="#">0</a>
+          <a href="#">/</a>
+          <a href="#">x</a>
+        </div>
+        <div>
+          <a href="#" id="reset">reset</a>
+          <a href="#" id="resultadoFinal">=</a>
+        </div>
+      </section>
+    </section>
+  </main>
+  
+  <script src="./js/calculadora.js"></script>
+</body>
+</html>
